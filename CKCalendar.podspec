@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name     = 'EKRecurrenceRuleRRULE'
+s.name     = 'CKCalendar'
 s.version  = '1.0.0'
 s.homepage = 'https://github.com/jaykz52/CKCalendar'
 s.license  = 'MIT'
