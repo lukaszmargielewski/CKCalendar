@@ -8,4 +8,6 @@ s.source   = { :git => 'https://github.com/lukaszmargielewski/CKCalendar.git', :
 s.source_files = 'Source/*.{h,m}'
 s.requires_arc = true
 s.resources = 'Source/resources/**'
+s.authors = 'Jason Kozemczak'
+s.summary = 'Calendar view'
 end
