@@ -4,7 +4,7 @@
 
 @interface CKViewController () <CKCalendarDelegate>
 
-@property(nonatomic, weak) CKCalendarView *calendar;
+@property(nonatomic, assign) CKCalendarView *calendar;
 @property(nonatomic, strong) UILabel *dateLabel;
 @property(nonatomic, strong) NSDateFormatter *dateFormatter;
 @property(nonatomic, strong) NSDate *minimumDate;

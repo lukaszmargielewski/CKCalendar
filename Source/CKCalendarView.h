@@ -44,7 +44,7 @@ typedef enum {
 @property (nonatomic) BOOL onlyShowCurrentMonth;
 @property (nonatomic) BOOL adaptHeightToNumberOfWeeksInMonth;
 
-@property (nonatomic, weak) id<CKCalendarDelegate> delegate;
+@property (nonatomic, assign) id<CKCalendarDelegate> delegate;
 
 // Theming
 @property (nonatomic, strong) UIFont *titleFont;
